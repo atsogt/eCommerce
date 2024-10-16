@@ -2,6 +2,7 @@ import React from "react";
 import "./collection-item.styles.scss";
 
 const CollectionItem = ({ name, imageUrl, price }) => (
+  //fetch items from endpoint
   <div className='collection-item'>
     <div className='image' style={{ backgroundImage: `url(${imageUrl})` }} />
     <div className='collection-footer'>
